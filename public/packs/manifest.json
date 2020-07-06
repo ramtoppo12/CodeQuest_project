@@ -1,0 +1,64 @@
+{
+  "application.js": "/packs/js/application-9afcbb5693aa87623e69.js",
+  "application.js.map": "/packs/js/application-9afcbb5693aa87623e69.js.map",
+  "englishQuiz.js": "/packs/js/englishQuiz-bdef8c5fa46c64bc8349.js",
+  "englishQuiz.js.map": "/packs/js/englishQuiz-bdef8c5fa46c64bc8349.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-9afcbb5693aa87623e69.js"
+      ],
+      "js.map": [
+        "/packs/js/application-9afcbb5693aa87623e69.js.map"
+      ]
+    },
+    "englishQuiz": {
+      "js": [
+        "/packs/js/englishQuiz-bdef8c5fa46c64bc8349.js"
+      ],
+      "js.map": [
+        "/packs/js/englishQuiz-bdef8c5fa46c64bc8349.js.map"
+      ]
+    },
+    "gkQuiz": {
+      "js": [
+        "/packs/js/gkQuiz-e55e087f9894e642ee0c.js"
+      ],
+      "js.map": [
+        "/packs/js/gkQuiz-e55e087f9894e642ee0c.js.map"
+      ]
+    },
+    "htmlQuiz": {
+      "js": [
+        "/packs/js/htmlQuiz-fb525fa458adb8f4a2e5.js"
+      ],
+      "js.map": [
+        "/packs/js/htmlQuiz-fb525fa458adb8f4a2e5.js.map"
+      ]
+    },
+    "mathQuiz": {
+      "js": [
+        "/packs/js/mathQuiz-7016855df2606af0d3a6.js"
+      ],
+      "js.map": [
+        "/packs/js/mathQuiz-7016855df2606af0d3a6.js.map"
+      ]
+    },
+    "scripts": {
+      "js": [
+        "/packs/js/scripts-2f4c61da7cdc658bc0c1.js"
+      ],
+      "js.map": [
+        "/packs/js/scripts-2f4c61da7cdc658bc0c1.js.map"
+      ]
+    }
+  },
+  "gkQuiz.js": "/packs/js/gkQuiz-e55e087f9894e642ee0c.js",
+  "gkQuiz.js.map": "/packs/js/gkQuiz-e55e087f9894e642ee0c.js.map",
+  "htmlQuiz.js": "/packs/js/htmlQuiz-fb525fa458adb8f4a2e5.js",
+  "htmlQuiz.js.map": "/packs/js/htmlQuiz-fb525fa458adb8f4a2e5.js.map",
+  "mathQuiz.js": "/packs/js/mathQuiz-7016855df2606af0d3a6.js",
+  "mathQuiz.js.map": "/packs/js/mathQuiz-7016855df2606af0d3a6.js.map",
+  "scripts.js": "/packs/js/scripts-2f4c61da7cdc658bc0c1.js",
+  "scripts.js.map": "/packs/js/scripts-2f4c61da7cdc658bc0c1.js.map"
+}
