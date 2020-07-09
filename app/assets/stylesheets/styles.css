@@ -1,6 +1,73 @@
 @charset "UTF-8";
+
+.app-quiz{
+  margin: 100px  0;
+  padding: 100px 0;
+}
+#about{
+background: linear-gradient(90deg, rgba(1,194,234,1) 5%, rgba(9,114,121,1) 55%, rgba(0,209,255,1) 94%);
+}
+#event{
+background: linear-gradient(90deg, rgba(1,194,234,1) 5%, rgba(9,114,121,1) 55%, rgba(0,209,255,1) 94%);
+  color: #fff;
+}
+#contact{
+background: linear-gradient(90deg, rgba(158,158,10,1) 23%, rgba(241,244,88,1) 78%);
+  color: #fff;
+  margin-top: -2px;
+}
+#one{
+background: linear-gradient(90deg, rgba(1,194,234,1) 5%, rgba(9,114,121,1) 55%, rgba(0,209,255,1) 94%);
+}
+#mainNav{
+background: linear-gradient(90deg, rgba(200,200,39,1) 37%, rgba(245,246,204,1) 50%, rgba(200,200,39,1) 62%);
+}
+footer{
+background: linear-gradient(90deg, rgba(200,200,39,1) 25%, rgba(245,246,204,1) 66%);
+}
+footer .container .text-muted{
+  font-size: 20px;
+}
+#error{
+  width:100%;
+  height:76%;
+  background: linear-gradient(90deg, rgba(200,186,39,1) 41%, rgba(224,231,176,1) 51%, rgba(190,200,39,1) 60%);
+}
+
+
+#msg{
+  padding: 100px 0 0 0;
+}
 .event{
   animation: blink 1s linear infinite;
+}
+.error-actions .btn{
+  animation: headshake 1s linear infinite;
+}
+@keyframes headshake {
+  0% {
+    transform: translateX(0);
+  }
+
+  6.5% {
+    transform: translateX(-6px) rotateY(-9deg);
+  }
+
+  18.5% {
+    transform: translateX(5px) rotateY(7deg);
+  }
+
+  31.5% {
+    transform: translateX(-3px) rotateY(-5deg);
+  }
+
+  43.5% {
+    transform: translateX(2px) rotateY(3deg);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
 }
 @keyframes blink {
   0%{
@@ -13,12 +80,128 @@
     opacity: 0
   }
 }
-.quiz1{
-  animation: quiz1 1s linear infinite;
+#input-fill{
+  width: 100%;
 }
-@keyframes quiz1 {
+.inputs{
+  margin:10px 0;
+}
+.btn-input{
+  margin: 10px 0;
+}
+#login h1{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#login{;
+    height:500px;
+  width: 600px;
+  border: 1px solid blue;
+  text-align: center;
+}
+.form{
+  width: 100%;
+  height: 100%;
+}
+#fomr-input{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height:100%;
+}
+#fomr-input form{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.form-input{
+  width: 100%;
+  height: 100%;
+}
+.form-control{
+  width:100%;
+}
+#signup{
+  margin: 10px 0;
+  font-size: 20px;
+}
+#btn:hover{
+  animation: flash 1.2s linear;
+}
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
 
+  25%,
+  75% {
+    opacity: 0;
+  }
 }
+.btn-warning:hover{
+  animation: shake .8s linear;
+}
+.fa-envelope:hover{
+  animation: shake .8s linear;
+}
+@keyframes shake {
+  from,
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+.fa-phone:hover{
+  animation: tada 1s linear;
+}
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -567,7 +750,7 @@ pre code {
   }
 }
 @media (min-width: 306px) {
-  
+
   #S-E{
     font-size: 22px
   }
@@ -10233,7 +10416,11 @@ header.masthead h1 {
 }
 #Event{
   font-size: 24px;
+  color: #fff;
 }
 #abt{
   font-size: 25px;
+}
+#one{
+
 }

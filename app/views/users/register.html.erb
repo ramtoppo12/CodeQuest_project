@@ -1,25 +1,31 @@
-<div class="all">
-
-	<div class="container" id="register">
-		<h1>Register for Event</h1>
-		<div class="row">
-			<div class="col-md-3">
+<div class="container">
+		<h1 class="text-center">Register for Event</h1>
+		<div class="field form-group">
 				<%= form_with(model: @user , local: true) do |f| %>
 				<%= render 'shared/error_messages' %>
 
 				<%= f.label :name %>
-				<%= f.text_field :name %>
+				<%= f.text_field :name ,class:"form-control"%>
 
 				<%= f.label :email %>
-				<%= f.text_field :email %>
+				<%= f.text_field :email ,class:"form-control"%>
 
 				<%= f.label :phone_number %>
-				<%= f.telephone_field :phone_number %>
+				<%= f.telephone_field :phone_number, class:"form-control" %>
+
+				<%= f.label :password %>
+				<%= f.password_field :password ,class:"form-control"%>
+
+				<%= f.label :password_confirmation %>
+				<%= f.password_field :password_confirmation , class:"form-control"%>
 
 				<%= f.submit "Register" , class: "btn btn-primary" %>
+				<p>Already Have an Account? <%= link_to "Login" , login_path%></p>
 				<% end %>
-			</div>
-		</div>
+
 	</div>
 
 </div>
+<footer class="bg-light py-5">
+		<div class="container"><div class="small text-center text-muted" style="color:#000;"> Copyright © 2020 - CodeQuest Internship Project</div></div>
+</footer>

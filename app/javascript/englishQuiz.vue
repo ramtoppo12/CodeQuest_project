@@ -2,7 +2,7 @@
   <div class="container-app" id="app">
     <div class="container-quiz">
       <div class="quiz-header">
-        <h1>Quiz App</h1>
+        <h1 style="padding: 80px 0 0 0;">English Quiz App</h1>
       </div>
       <div class="quiz-main" v-for="(element,index) in questions.slice(a,b)" v-bind:key="index" v-show="quiz">
         <div class="box-questions">
@@ -154,7 +154,7 @@ display: flex;
 width: 40%;
 height: 85%;
 position: absolute;
-top: 0;
+top:10%;
 bottom: 0;
 margin: auto;
 flex-flow: column;
@@ -208,11 +208,11 @@ width: 80%;
 margin: 0;
 padding: 0;
 flex-flow: column;
-height: 30px;
+height: 50px;
 }
 ul li{
 list-style: none;
-line-height: 2;
+line-height: 2.5;
 border: 1px solid #cdd2d2;
 margin: 0 0 20px 0;
 border-radius: 15px;
